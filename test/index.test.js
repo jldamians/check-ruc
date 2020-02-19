@@ -6,11 +6,11 @@ const CheckRuc = require('../lib');
 
 describe('Checking RUC', function () {
 	it('Should return false if ruc is not present', function () {
-		assert.equal(false, CheckRuc());
+		assert.equal(false, CheckRuc.isOk());
 	});
 
 	it('should return false if ruc does not have 11 digits', function () {
-		assert.equal(false, CheckRuc('2029200548'));
+		assert.equal(false, CheckRuc.isOk('2029200548'));
 	});
 
 	it('should return false if ruc does not start with 10, 15, 16, 17, 20', function () {
