@@ -1,5 +1,5 @@
 {
-  "name": "ruc",
+  "name": "check-ruc",
   "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jldamians/ruc.git"
+    "url": "git+https://github.com/jldamians/check-ruc.git"
   },
   "keywords": [
     "ruc",
@@ -18,9 +18,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jldamians/ruc/issues"
+    "url": "https://github.com/jldamians/check-ruc/issues"
   },
-  "homepage": "https://github.com/jldamians/ruc#readme",
+  "homepage": "https://github.com/jldamians/check-ruc#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^7.0.1"
